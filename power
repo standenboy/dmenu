@@ -1,0 +1,3 @@
+#!/bin/sh
+
+doas sh $(printf "poweroff\nreboot\ncancel" | dmenu -c -l 3)
